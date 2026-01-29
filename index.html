@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<!-- saved from url=(0020)https://www.moai.co/ -->
+<html lang="ko"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제조 운영지능 MOAI - CAPA</title>
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="moai">
+    <meta property="og:title" content="제조 운영지능 MOAI">
+    <meta property="og:description" content="제조업의 모든 Data 와 Knowledge 를 통합해 지식은 진화 시키고, 운영은 최적화 하며, 리스크를 통제하는 제조운영 지능을 구축해 드립니다.">
+    <meta property="og:image" content="https://capa.ai/static/og/og_moai.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="moai">
+    <meta property="twitter:title" content="제조 운영지능 MOAI">
+    <meta property="twitter:description" content="제조업의 모든 Data 와 Knowledge 를 통합해 지식은 진화 시키고, 운영은 최적화 하며, 리스크를 통제하는 제조운영 지능을 구축해 드립니다.">
+    <meta property="twitter:image" content="https://capa.ai/static/og/og_moai.png">
+    <!-- Tailwind CSS -->
+    <script src="./제조 운영지능 MOAI - CAPA_files/saved_resource"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2563EB', // Blue 600
+                        secondary: '#1E40AF', // Blue 800
+                        dark: '#0F172A', // Slate 900
+                        light: '#F8FAFC', // Slate 50
+                    },
+                    fontFamily: {
+                        sans: ['Pretendard', '-apple-system', 'BlinkMacSystemFont', 'system-ui', 'Roboto', 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Pretendard Font -->
+    <link rel="stylesheet" as="style" crossorigin="" href="./제조 운영지능 MOAI - CAPA_files/pretendard.min.css">
+    <!-- AOS Animation CSS -->
+    <link href="./제조 운영지능 MOAI - CAPA_files/aos.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Pretendard', sans-serif;
+        }
+
+        .hero-overlay {
+            background: linear-gradient(rgba(15, 23, 42, 0.6), rgba(15, 23, 42, 0.8));
+        }
+
+        .text-shadow {
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .gradient-text {
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-image: linear-gradient(to right, #60A5FA, #3B82F6);
+        }
+
+        /* Mobile Horizontal Scroll Snap & Hide Scrollbar */
+        .snap-x-mandatory {
+            scroll-snap-type: x mandatory;
+        }
+
+        .snap-center {
+            scroll-snap-align: center;
+        }
+
+        .scrollbar-hide::-webkit-scrollbar {
+            display: none;
+        }
+
+        .scrollbar-hide {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        /* Parallax Background */
+        .parallax-bg {
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        /* Glassmorphism Card */
+        .glass-card {
+            background: rgba(30, 41, 59, 0.7);
+            /* slate-800 with opacity */
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, Helvetica Neue, Segoe UI, Apple SD Gothic Neo, Malgun Gothic, sans-serif;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.inset-0{inset:0px}.left-1\/2{left:50%}.left-\[25\%\]{left:25%}.right-\[25\%\]{right:25%}.top-0{top:0px}.top-1\/2{top:50%}.z-0{z-index:0}.z-10{z-index:10}.z-50{z-index:50}.order-1{order:1}.order-2{order:2}.order-3{order:3}.order-4{order:4}.mx-auto{margin-left:auto;margin-right:auto}.mb-10{margin-bottom:2.5rem}.mb-12{margin-bottom:3rem}.mb-16{margin-bottom:4rem}.mb-2{margin-bottom:0.5rem}.mb-20{margin-bottom:5rem}.mb-24{margin-bottom:6rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.mr-4{margin-right:1rem}.mt-1{margin-top:0.25rem}.mt-10{margin-top:2.5rem}.mt-12{margin-top:3rem}.mt-2{margin-top:0.5rem}.mt-4{margin-top:1rem}.mt-8{margin-top:2rem}.inline-block{display:inline-block}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.hidden{display:none}.h-1{height:0.25rem}.h-1\/2{height:50%}.h-12{height:3rem}.h-14{height:3.5rem}.h-16{height:4rem}.h-4{height:1rem}.h-6{height:1.5rem}.h-7{height:1.75rem}.h-8{height:2rem}.h-auto{height:auto}.h-full{height:100%}.h-px{height:1px}.h-screen{height:100vh}.min-h-\[600px\]{min-height:600px}.w-12{width:3rem}.w-16{width:4rem}.w-4{width:1rem}.w-6{width:1.5rem}.w-7{width:1.75rem}.w-full{width:100%}.w-px{width:1px}.max-w-2xl{max-width:42rem}.max-w-3xl{max-width:48rem}.max-w-4xl{max-width:56rem}.max-w-5xl{max-width:64rem}.max-w-7xl{max-width:80rem}.flex-none{flex:none}.flex-shrink-0{flex-shrink:0}.-translate-x-1\/2{--tw-translate-x:-50%;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.transform{transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-32{gap:8rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.gap-8{gap:2rem}.gap-y-8{row-gap:2rem}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.break-keep{word-break:keep-all}.rounded{border-radius:0.25rem}.rounded-2xl{border-radius:1rem}.rounded-3xl{border-radius:1.5rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-md{border-radius:0.375rem}.rounded-r-lg{border-top-right-radius:0.5rem;border-bottom-right-radius:0.5rem}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-l-4{border-left-width:4px}.border-t{border-top-width:1px}.border-blue-400{--tw-border-opacity:1;border-color:rgb(96 165 250 / var(--tw-border-opacity, 1))}.border-blue-500{--tw-border-opacity:1;border-color:rgb(59 130 246 / var(--tw-border-opacity, 1))}.border-slate-100{--tw-border-opacity:1;border-color:rgb(241 245 249 / var(--tw-border-opacity, 1))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240 / var(--tw-border-opacity, 1))}.border-slate-700\/50{border-color:rgb(51 65 85 / 0.5)}.border-slate-900{--tw-border-opacity:1;border-color:rgb(15 23 42 / var(--tw-border-opacity, 1))}.bg-blue-100{--tw-bg-opacity:1;background-color:rgb(219 234 254 / var(--tw-bg-opacity, 1))}.bg-blue-200{--tw-bg-opacity:1;background-color:rgb(191 219 254 / var(--tw-bg-opacity, 1))}.bg-blue-50{--tw-bg-opacity:1;background-color:rgb(239 246 255 / var(--tw-bg-opacity, 1))}.bg-blue-500\/20{background-color:rgb(59 130 246 / 0.2)}.bg-blue-600{--tw-bg-opacity:1;background-color:rgb(37 99 235 / var(--tw-bg-opacity, 1))}.bg-emerald-100{--tw-bg-opacity:1;background-color:rgb(209 250 229 / var(--tw-bg-opacity, 1))}.bg-emerald-200{--tw-bg-opacity:1;background-color:rgb(167 243 208 / var(--tw-bg-opacity, 1))}.bg-primary{--tw-bg-opacity:1;background-color:rgb(37 99 235 / var(--tw-bg-opacity, 1))}.bg-red-100{--tw-bg-opacity:1;background-color:rgb(254 226 226 / var(--tw-bg-opacity, 1))}.bg-slate-100{--tw-bg-opacity:1;background-color:rgb(241 245 249 / var(--tw-bg-opacity, 1))}.bg-slate-300{--tw-bg-opacity:1;background-color:rgb(203 213 225 / var(--tw-bg-opacity, 1))}.bg-slate-50{--tw-bg-opacity:1;background-color:rgb(248 250 252 / var(--tw-bg-opacity, 1))}.bg-slate-900\/80{background-color:rgb(15 23 42 / 0.8)}.bg-slate-950{--tw-bg-opacity:1;background-color:rgb(2 6 23 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-white\/90{background-color:rgb(255 255 255 / 0.9)}.object-cover{object-fit:cover}.p-10{padding:2.5rem}.p-4{padding:1rem}.p-6{padding:1.5rem}.p-8{padding:2rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.px-4{padding-left:1rem;padding-right:1rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-8{padding-left:2rem;padding-right:2rem}.py-0\.5{padding-top:0.125rem;padding-bottom:0.125rem}.py-1\.5{padding-top:0.375rem;padding-bottom:0.375rem}.py-10{padding-top:2.5rem;padding-bottom:2.5rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-24{padding-top:6rem;padding-bottom:6rem}.py-4{padding-top:1rem;padding-bottom:1rem}.pt-4{padding-top:1rem}.pt-6{padding-top:1.5rem}.text-center{text-align:center}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.italic{font-style:italic}.leading-relaxed{line-height:1.625}.leading-tight{line-height:1.25}.tracking-tight{letter-spacing:-0.025em}.tracking-wide{letter-spacing:0.025em}.tracking-wider{letter-spacing:0.05em}.tracking-widest{letter-spacing:0.1em}.text-blue-200{--tw-text-opacity:1;color:rgb(191 219 254 / var(--tw-text-opacity, 1))}.text-blue-300{--tw-text-opacity:1;color:rgb(147 197 253 / var(--tw-text-opacity, 1))}.text-blue-400{--tw-text-opacity:1;color:rgb(96 165 250 / var(--tw-text-opacity, 1))}.text-blue-600{--tw-text-opacity:1;color:rgb(37 99 235 / var(--tw-text-opacity, 1))}.text-blue-700{--tw-text-opacity:1;color:rgb(29 78 216 / var(--tw-text-opacity, 1))}.text-emerald-600{--tw-text-opacity:1;color:rgb(5 150 105 / var(--tw-text-opacity, 1))}.text-primary{--tw-text-opacity:1;color:rgb(37 99 235 / var(--tw-text-opacity, 1))}.text-red-600{--tw-text-opacity:1;color:rgb(220 38 38 / var(--tw-text-opacity, 1))}.text-slate-300{--tw-text-opacity:1;color:rgb(203 213 225 / var(--tw-text-opacity, 1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85 / var(--tw-text-opacity, 1))}.text-slate-800{--tw-text-opacity:1;color:rgb(30 41 59 / var(--tw-text-opacity, 1))}.text-slate-900{--tw-text-opacity:1;color:rgb(15 23 42 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-blue-500\/30{--tw-shadow-color:rgb(59 130 246 / 0.3);--tw-shadow:var(--tw-shadow-colored)}.ring-1{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.ring-slate-100{--tw-ring-opacity:1;--tw-ring-color:rgb(241 245 249 / var(--tw-ring-opacity, 1))}.backdrop-blur-md{--tw-backdrop-blur:blur(12px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-colors{transition-property:color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-shadow{transition-property:box-shadow;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-transform{transition-property:transform;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-200{transition-duration:200ms}.duration-300{transition-duration:300ms}.hover\:-translate-y-1:hover{--tw-translate-y:-0.25rem;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:border-blue-500:hover{--tw-border-opacity:1;border-color:rgb(59 130 246 / var(--tw-border-opacity, 1))}.hover\:bg-secondary:hover{--tw-bg-opacity:1;background-color:rgb(30 64 175 / var(--tw-bg-opacity, 1))}.hover\:shadow-lg:hover{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}@media (min-width: 640px){.sm\:flex-row{flex-direction:row}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}}@media (min-width: 768px){.md\:mx-auto{margin-left:auto;margin-right:auto}.md\:mb-0{margin-bottom:0px}.md\:mb-20{margin-bottom:5rem}.md\:block{display:block}.md\:inline{display:inline}.md\:grid{display:grid}.md\:hidden{display:none}.md\:w-auto{width:auto}.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.md\:flex-row{flex-direction:row}.md\:gap-12{gap:3rem}.md\:gap-8{gap:2rem}.md\:border-0{border-width:0px}.md\:bg-transparent{background-color:transparent}.md\:p-10{padding:2.5rem}.md\:p-8{padding:2rem}.md\:px-0{padding-left:0px;padding-right:0px}.md\:text-4xl{font-size:2.25rem;line-height:2.5rem}.md\:text-5xl{font-size:3rem;line-height:1}}@media (min-width: 1024px){.lg\:col-start-1{grid-column-start:1}.lg\:col-start-2{grid-column-start:2}.lg\:row-span-3{grid-row:span 3 / span 3}.lg\:row-start-1{grid-row-start:1}.lg\:row-start-2{grid-row-start:2}.lg\:row-start-3{grid-row-start:3}.lg\:mt-0{margin-top:0px}.lg\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.lg\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.lg\:gap-x-16{column-gap:4rem}.lg\:px-8{padding-left:2rem;padding-right:2rem}.lg\:text-6xl{font-size:3.75rem;line-height:1}}</style></head>
+
+<body class="bg-white text-slate-800" data-aos-easing="ease" data-aos-duration="1000" data-aos-delay="0">
+
+    <!-- Header -->
+    <header class="fixed top-0 w-full z-50 bg-white/90 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center">
+                <span class="text-2xl font-bold text-primary tracking-tight">MOAI</span>
+            </div>
+            <a href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=YgkiXAnoSU-_A-gopRvcTy3tFjT5ZpFIiZBX04KsRxFUNkc0RUw0WE5JWE8zS0JSUlowTlJPWVpONS4u" target="_blank" class="bg-primary hover:bg-secondary text-white px-5 py-2 rounded-md font-medium transition-colors duration-200">
+                서비스 문의하기
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
+        <!-- Background Image -->
+        <div class="absolute inset-0 z-0">
+            <img src="./제조 운영지능 MOAI - CAPA_files/moai_v3_1_hero_real_factory_overlay_1768548893179.png" alt="Futuristic Smart Factory" class="w-full h-full object-cover">
+            <div class="hero-overlay absolute inset-0"></div>
+        </div>
+
+        <div class="relative z-10 text-center px-4 max-w-7xl mx-auto aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+            <div class="mb-8">
+                <span class="inline-block py-1.5 px-4 rounded-full bg-blue-500/20 border border-blue-400 text-blue-300 text-sm font-bold tracking-widest uppercase mb-2">Manufacturing
+                    Operation Intelligence</span>
+                <p class="text-blue-200 font-medium tracking-wide">Learning · Operation · Decision</p>
+            </div>
+
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-8 leading-tight text-shadow break-keep">
+                제조업의 모든 Data와 Knowledge를 통합해<br>
+                <span class="text-blue-400">지식은 진화</span>시키고, <span class="text-blue-400">운영은 최적화</span>하며,<br>
+                <span class="text-blue-400">리스크를 통제</span>하는 제조운영 지능 플랫폼
+            </h1>
+
+            <div class="flex flex-col sm:flex-row gap-4 justify-center mt-12 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                <a href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=YgkiXAnoSU-_A-gopRvcTy3tFjT5ZpFIiZBX04KsRxFUNkc0RUw0WE5JWE8zS0JSUlowTlJPWVpONS4u" target="_blank" class="bg-primary hover:bg-secondary text-white text-lg px-8 py-4 rounded-lg font-bold transition-transform transform hover:-translate-y-1 shadow-lg shadow-blue-500/30">
+                    MOAI 도입 문의하기
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- What is MOAI -->
+    <section class="py-24 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 aos-init" data-aos="fade-up">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-6">What is MOAI?</h2>
+                <div class="max-w-4xl mx-auto space-y-6 text-lg text-slate-600 leading-relaxed">
+                    <p>
+                        <strong>MOAI</strong>는 ERP·MES·PLM 등 기존 시스템에 축적된 <strong>운영 데이터(Data)</strong>와
+                        이메일·메신저·문서·현장 경험에 흩어져 있는 <strong>조직의 지식(Knowledge)</strong>을 결합해 작동하는
+                        <strong>제조운영 지능(Manufacturing Operation Intelligence)</strong>입니다.
+                    </p>
+                    <p>
+                        단순한 데이터 조회나 기록 관리 시스템이 아닙니다. <br class="hidden md:inline">
+                        MOAI는 제조 조직이 <strong>배우고(Learning), 실행하고(Operation), 판단하는(Decision)</strong> 전 과정을 하나의 지능으로
+                        연결합니다.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Refactored Structure: Top Card -> Lines -> Bottom Cards -->
+            <div class="max-w-5xl mx-auto aos-init" data-aos="fade-up">
+                <!-- Top Card: Integrated Intelligence -->
+                <div class="bg-white rounded-2xl shadow-lg border border-slate-100 p-10 text-center relative z-10">
+                    <div class="inline-flex items-center justify-center p-4 bg-blue-50 rounded-full shadow-sm mb-6">
+                        <span class="text-4xl">🧠</span>
+                    </div>
+                    <h4 class="text-3xl font-bold text-slate-900 mb-4">Integrated Data &amp; Knowledge</h4>
+                    <p class="text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed">
+                        "구조화된 데이터와 비정형 지식은 분리되지 않고,<br class="hidden md:block"> 같은 맥락 안에서 함께 이해되고 활용됩니다."
+                    </p>
+                </div>
+
+                <!-- Connecting Lines (Desktop only) -->
+                <div class="relative h-12 w-full hidden md:block" aria-hidden="true">
+                    <!-- Center vertical line from top card -->
+                    <div class="absolute left-1/2 top-0 h-1/2 w-px bg-slate-300 -translate-x-1/2"></div>
+                    <!-- Horizontal connecting line -->
+                    <div class="absolute top-1/2 left-[25%] right-[25%] h-px bg-slate-300"></div>
+                    <!-- Vertical lines down to bottom cards -->
+                    <div class="absolute top-1/2 left-[25%] h-full w-px bg-slate-300"></div>
+                    <div class="absolute top-1/2 right-[25%] h-full w-px bg-slate-300"></div>
+                </div>
+
+                <!-- Connecting Lines (Mobile only) -->
+                <div class="h-8 w-full flex justify-center md:hidden" aria-hidden="true">
+                    <div class="w-px h-full bg-slate-300"></div>
+                </div>
+
+                <!-- Bottom Cards: Data & Knowledge -->
+                <div class="border border-slate-200 bg-slate-100 rounded-3xl p-6 md:p-8 md:border-0 md:bg-transparent">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+                        <!-- Data Card -->
+                        <div class="bg-white rounded-2xl shadow-lg border border-slate-100 p-8 md:p-10 flex flex-col items-center text-center relative z-10">
+                            <h3 class="text-2xl font-bold mb-6 flex flex-col items-center text-slate-900">
+                                <div class="w-12 h-12 rounded-lg bg-blue-100 flex items-center justify-center mb-4 text-blue-600">
+                                    <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4">
+                                        </path>
+                                    </svg>
+                                </div>
+                                Data (Structured)
+                            </h3>
+                            <p class="text-slate-600 leading-relaxed font-medium mb-4">
+                                ERP, MES, PLM, 설비/IoT 및<br>기타 구조화된 운영 데이터
+                            </p>
+                            <div class="h-1 w-16 bg-blue-200 mb-4"></div>
+                            <p class="text-sm text-slate-500">정형화된 수치, 로그, 시스템 기록</p>
+                        </div>
+
+                        <!-- Knowledge Card -->
+                        <div class="bg-white rounded-2xl shadow-lg border border-slate-100 p-8 md:p-10 flex flex-col items-center text-center relative z-10">
+                            <h3 class="text-2xl font-bold mb-6 flex flex-col items-center text-slate-900">
+                                <div class="w-12 h-12 rounded-lg bg-emerald-100 flex items-center justify-center mb-4 text-emerald-600">
+                                    <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                Knowledge (Unstructured)
+                            </h3>
+                            <p class="text-slate-600 leading-relaxed font-medium mb-4">
+                                기술 문서, SOP, 이메일·메신저,<br>회의 기록, 현장의 암묵지
+                            </p>
+                            <div class="h-1 w-16 bg-emerald-200 mb-4"></div>
+                            <p class="text-sm text-slate-500">비정형 텍스트, 노하우, 경험적 자산</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3 Core Engines -->
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-24 aos-init" data-aos="fade-up">
+                <span class="text-primary font-bold tracking-widest uppercase text-sm">Our Technology</span>
+                <h2 class="text-4xl md:text-5xl font-bold text-slate-900 mt-2">3 Core Engines</h2>
+                <p class="text-xl text-slate-500 mt-4">제조 운영을 혁신하는 세 가지 핵심 엔진</p>
+            </div>
+
+            <div class="flex flex-col gap-32">
+                <!-- Engine 01 -->
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-y-8 lg:gap-x-16 items-start aos-init" data-aos="fade-right">
+
+                    <!-- Title Block -->
+                    <div class="order-1 lg:col-start-2 lg:row-start-1">
+                        <div class="flex items-center mb-6">
+                            <span class="bg-blue-600 text-white font-bold px-4 py-1.5 rounded-full text-sm tracking-wide mr-4 shadow-sm">Engine
+                                01</span>
+                            <span class="text-slate-500 font-bold text-lg">Learning</span>
+                        </div>
+                        <h3 class="text-4xl font-bold text-slate-900 mb-4">Enterprise Ontology</h3>
+                        <p class="text-xl text-blue-600 font-semibold mb-6">지식 학습 및 구조화</p>
+                    </div>
+
+                    <!-- Image Block -->
+                    <div class="order-2 lg:col-start-1 lg:row-start-1 lg:row-span-3">
+                        <div class="relative overflow-hidden rounded-2xl shadow-2xl bg-slate-50 ring-1 ring-slate-100">
+                            <img src="./제조 운영지능 MOAI - CAPA_files/moai_v9_engine1_ontology_node.png" alt="Enterprise Ontology" class="w-full h-auto">
+                        </div>
+                    </div>
+
+                    <!-- List Block -->
+                    <ul class="space-y-6 order-3 lg:col-start-2 lg:row-start-2">
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center mt-1 mr-4">
+                                <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-bold text-slate-900">지식 자동 학습</h4>
+                                <p class="text-slate-600 mt-1">문서, 이메일, 메신저, 회의 기록, 현장 데이터를 자동 학습하며 지속적으로 고도화함</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center mt-1 mr-4">
+                                <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-bold text-slate-900">지식의 구조화</h4>
+                                <p class="text-slate-600 mt-1">흩어진 정보를 개념과 관계로 정리해 조직 지식으로 구조화함</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center mt-1 mr-4">
+                                <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-bold text-slate-900">암묵지의 자산화</h4>
+                                <p class="text-slate-600 mt-1">숙련공의 경험과 판단을 암묵지에서 명시적 지식으로 전환함</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center mt-1 mr-4">
+                                <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-bold text-slate-900">즉시 활용 지능</h4>
+                                <p class="text-slate-600 mt-1">학습된 지식을 현장 업무, 고객 대응, 의사결정에 즉시 활용함</p>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <!-- Quote Block -->
+                    <div class="order-4 mt-10 lg:mt-0 lg:col-start-2 lg:row-start-3 mb-10 p-6 bg-slate-50 border-l-4 border-blue-500 rounded-r-lg">
+                        <p class="italic text-slate-700 text-lg font-medium leading-relaxed">
+                            "숙련공이 떠나도 노하우는 남고, 신입 사원은 첫날부터 베테랑처럼 일합니다."
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Engine 02 -->
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-y-8 lg:gap-x-16 items-start aos-init" data-aos="fade-left">
+
+                    <!-- Title Block -->
+                    <div class="order-1 lg:col-start-1 lg:row-start-1">
+                        <div class="flex items-center mb-6">
+                            <span class="bg-blue-600 text-white font-bold px-4 py-1.5 rounded-full text-sm tracking-wide mr-4 shadow-sm">Engine
+                                02</span>
+                            <span class="text-slate-500 font-bold text-lg">Operation</span>
+                        </div>
+                        <h3 class="text-4xl font-bold text-slate-900 mb-4">Operation Optimizer</h3>
+                        <p class="text-xl text-blue-600 font-semibold mb-6">운영 최적화 및 실행</p>
+                    </div>
+
+                    <!-- Image Block -->
+                    <div class="order-2 lg:col-start-2 lg:row-start-1 lg:row-span-3">
+                        <div class="relative overflow-hidden rounded-2xl shadow-2xl bg-slate-50 ring-1 ring-slate-100">
+                            <img src="./제조 운영지능 MOAI - CAPA_files/moai_v7_engine2_optimizer_final.jpg" alt="Operation Optimizer" class="w-full h-auto">
+                        </div>
+                    </div>
+
+                    <!-- List Block -->
+                    <ul class="space-y-6 order-3 lg:col-start-1 lg:row-start-2">
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center mt-1 mr-4">
+                                <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-bold text-slate-900">간편한 데이터 입력</h4>
+                                <p class="text-slate-600 mt-1">에이전트와의 채팅(텍스트/이미지/문서)과 이메일 포워딩을 통한 장벽 없는 입력</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center mt-1 mr-4">
+                                <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-bold text-slate-900">업무 맥락 인식</h4>
+                                <p class="text-slate-600 mt-1">업무 맥락을 이해해, 다음 작업과 처리 흐름을 자동 제안함</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center mt-1 mr-4">
+                                <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-bold text-slate-900">협업 가속화</h4>
+                                <p class="text-slate-600 mt-1">사내 협업 공간에서 에이전트가 함께 참여해 부서 간 협업과 소통을 가속함</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center mt-1 mr-4">
+                                <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-bold text-slate-900">운영 흐름 재설계</h4>
+                                <p class="text-slate-600 mt-1">주문·생산·품질의 핵심 흐름을, 사람과 AI의 최적 역할 분담을 통해 빈틈없이 연결함</p>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <!-- Quote Block -->
+                    <div class="order-4 mt-8 lg:mt-0 lg:col-start-1 lg:row-start-3 mb-10 p-6 bg-slate-50 border-l-4 border-blue-500 rounded-r-lg">
+                        <p class="italic text-slate-700 text-lg font-medium leading-relaxed">
+                            "업무 처리 속도를 크게 개선하고, 휴먼 에러를 구조적으로 줄입니다."
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Engine 03 -->
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-y-8 lg:gap-x-16 items-start aos-init" data-aos="fade-right">
+
+                    <!-- Title Block -->
+                    <div class="order-1 lg:col-start-2 lg:row-start-1">
+                        <div class="flex items-center mb-6">
+                            <span class="bg-blue-600 text-white font-bold px-4 py-1.5 rounded-full text-sm tracking-wide mr-4 shadow-sm">Engine
+                                03</span>
+                            <span class="text-slate-500 font-bold text-lg">Decision</span>
+                        </div>
+                        <h3 class="text-4xl font-bold text-slate-900 mb-4">Command Center</h3>
+                        <p class="text-xl text-blue-600 font-semibold mb-6">리스크 관제 및 통제</p>
+                    </div>
+
+                    <!-- Image Block -->
+                    <div class="order-2 lg:col-start-1 lg:row-start-1 lg:row-span-3">
+                        <div class="relative overflow-hidden rounded-2xl shadow-2xl bg-slate-50 ring-1 ring-slate-100">
+                            <img src="./제조 운영지능 MOAI - CAPA_files/moai_v7_engine3_command_final.jpg" alt="Command Center" class="w-full h-auto">
+                        </div>
+                    </div>
+
+                    <!-- List Block -->
+                    <ul class="space-y-6 order-3 lg:col-start-2 lg:row-start-2">
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center mt-1 mr-4">
+                                <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-bold text-slate-900">실시간 통합 관제</h4>
+                                <p class="text-slate-600 mt-1">전사 운영 현황(생산·품질·재무)을 대시보드로 통합하여 실시간 투명성 확보</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center mt-1 mr-4">
+                                <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-bold text-slate-900">선제적 이상 감지</h4>
+                                <p class="text-slate-600 mt-1">병목 현상이나 품질/규제 위반 리스크를 조기에 포착하여 대응 골든타임 확보</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center mt-1 mr-4">
+                                <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-bold text-slate-900">의사결정 시뮬레이션</h4>
+                                <p class="text-slate-600 mt-1">내부 데이터와 외부 변수를 복합 고려해, 최적의 해결 시나리오를 사전 검토함</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center mt-1 mr-4">
+                                <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-bold text-slate-900">Human-in-the-loop</h4>
+                                <p class="text-slate-600 mt-1">AI의 정밀 분석을 토대로, 최종 의사결정은 책임자가 수행하는 안전한 승인 체계</p>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <!-- Quote Block -->
+                    <div class="order-4 mt-10 lg:mt-0 lg:col-start-2 lg:row-start-3 mb-10 p-6 bg-slate-50 border-l-4 border-blue-500 rounded-r-lg">
+                        <p class="italic text-slate-700 text-lg font-medium leading-relaxed">
+                            "24시간 깨어있는 경영 참모가 현황을 직보하고, 위기 돌파를 위한 전략안을 먼저 제안합니다."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why MOAI -->
+    <section class="relative py-24 parallax-bg" style="background-image: url(&#39;/assets/moai/moai_hero_realistic_factory_1768542059989.png&#39;);">
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-slate-900/80 z-0"></div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-20 aos-init" data-aos="fade-up">
+                <h2 class="text-3xl md:text-5xl font-bold text-white mb-6">Why MOAI?</h2>
+                <p class="text-xl text-slate-300 max-w-3xl mx-auto">
+                    화려한 기술보다 중요한 것은 <strong class="text-white">'제조 현장의 현실'</strong>입니다.<br>
+                    MOAI는 가장 현실적이고, 부담 없으며, 즉시 작동하는 솔루션입니다.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Why 01 -->
+                <div class="glass-card rounded-2xl p-8 hover:border-blue-500 transition-all duration-300 aos-init" data-aos="flip-left" data-aos-delay="0">
+                    <div class="text-blue-400 font-bold mb-4 tracking-wider">Expertise</div>
+                    <h3 class="text-2xl font-bold text-white mb-4">제조업을 아는 최고의<br>AI 개발팀이 만듭니다</h3>
+                    <p class="text-slate-300 leading-relaxed mb-8">
+                        MOAI는 단순한 IT 개발사가 만든 솔루션이 아닙니다. 제조 B2B 플랫폼 'CAPA'를 성공시킨 도메인 노하우와 최정예 AI 기술력이 결합되었습니다.
+                    </p>
+                    <div class="pt-6 border-t border-slate-700/50">
+                        <p class="text-white font-medium italic">"👉 기술이 아니라,<br>제조의 맥락을 압니다."</p>
+                    </div>
+                </div>
+
+                <!-- Why 02 -->
+                <div class="glass-card rounded-2xl p-8 hover:border-blue-500 transition-all duration-300 aos-init" data-aos="flip-left" data-aos-delay="100">
+                    <div class="text-blue-400 font-bold mb-4 tracking-wider">Zero Friction</div>
+                    <h3 class="text-2xl font-bold text-white mb-4">실무자에게 부담을<br>주지 않습니다</h3>
+                    <p class="text-slate-300 leading-relaxed mb-8">
+                        바쁜 현업 실무자에게 새로운 시스템 학습을 강요하지 않습니다. 기존 문서, 이메일, 데이터를 AI가 자동으로 학습하여 구축하고, 실무자는 하던 대로 일하면 됩니다.
+                    </p>
+                    <div class="pt-6 border-t border-slate-700/50">
+                        <p class="text-white font-medium italic">"👉 도입은 조용하게,<br>효과는 빠르게."</p>
+                    </div>
+                </div>
+
+                <!-- Why 03 -->
+                <div class="glass-card rounded-2xl p-8 hover:border-blue-500 transition-all duration-300 aos-init" data-aos="flip-left" data-aos-delay="200">
+                    <div class="text-blue-400 font-bold mb-4 tracking-wider">Expansion</div>
+                    <h3 class="text-2xl font-bold text-white mb-4">기존 시스템을 그대로<br>흡수하여 확장합니다</h3>
+                    <p class="text-slate-300 leading-relaxed mb-8">
+                        수십억을 들인 ERP·MES를 교체하지 마십시오. MOAI는 기존 시스템의 데이터와 프로세스를 완벽하게 흡수하고, 그 위에 AI 지능을 더해 확장합니다.
+                    </p>
+                    <div class="pt-6 border-t border-slate-700/50">
+                        <p class="text-white font-medium italic">"👉 있는 것은 살리고,<br>없는 것은 채워줍니다."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio & Track Record -->
+    <section class="py-24 bg-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12 md:mb-20 aos-init" data-aos="fade-up">
+                <span class="text-primary font-bold tracking-widest uppercase text-sm">Case Studies</span>
+                <h2 class="text-4xl md:text-5xl font-bold text-slate-900 mt-2 mb-6">Portfolio &amp; Track Record</h2>
+                <p class="text-xl text-slate-500 max-w-3xl mx-auto">
+                    MOAI의 기술은 이미 현장에서 증명되고 있습니다.<br>
+                    파편화된 요구사항을 성공적인 비즈니스 성과로 연결해왔습니다.
+                </p>
+            </div>
+
+            <!-- Mobile: Vertical Column, Desktop: Grid -->
+            <div class="flex flex-col gap-6 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-8 md:mx-auto md:px-0">
+                <!-- Case 01 -->
+                <div class="flex-none w-full md:w-auto bg-slate-50 rounded-2xl p-8 border border-slate-200 hover:shadow-lg transition-shadow aos-init" data-aos="fade-up" data-aos-delay="0">
+                    <h3 class="text-xl font-bold text-slate-900 mb-4 h-14 flex items-center">01. 배터리 전극 공정<br>레시피 산출
+                        AI Agent</h3>
+                    <div class="space-y-4 text-sm">
+                        <div>
+                            <span class="bg-red-100 text-red-600 px-2 py-0.5 rounded text-xs font-bold">Challenge</span>
+                            <p class="text-slate-600 mt-1">숙련공의 감에 의존, 수율 편차 큼, 최적 배합비 도출 시간 소요</p>
+                        </div>
+                        <div>
+                            <span class="bg-blue-100 text-blue-600 px-2 py-0.5 rounded text-xs font-bold">Solution</span>
+                            <p class="text-slate-600 mt-1">최적 수율 배합비/세팅값 AI 자동 산출, 미세 오차 실시간 보정</p>
+                        </div>
+                        <div class="pt-4 border-t border-slate-200">
+                            <span class="text-slate-900 font-bold">Result:</span>
+                            <span class="text-blue-700 font-semibold">공정 세팅 시간 단축 및 수율 획기적 개선</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case 02 -->
+                <div class="flex-none w-full md:w-auto bg-slate-50 rounded-2xl p-8 border border-slate-200 hover:shadow-lg transition-shadow aos-init" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="text-xl font-bold text-slate-900 mb-4 h-14 flex items-center">02. 제조지식 기반 글로벌<br>고객 상담
+                        Agent 서비스</h3>
+                    <div class="space-y-4 text-sm">
+                        <div>
+                            <span class="bg-red-100 text-red-600 px-2 py-0.5 rounded text-xs font-bold">Challenge</span>
+                            <p class="text-slate-600 mt-1">시차 발생, 언어 장벽으로 인한 전문적 답변 작성 어려움</p>
+                        </div>
+                        <div>
+                            <span class="bg-blue-100 text-blue-600 px-2 py-0.5 rounded text-xs font-bold">Solution</span>
+                            <p class="text-slate-600 mt-1">실시간 채팅 전환, 비즈니스 매너/전문 지식 담긴 다국어 답변 추천</p>
+                        </div>
+                        <div class="pt-4 border-t border-slate-200">
+                            <span class="text-slate-900 font-bold">Result:</span>
+                            <span class="text-blue-700 font-semibold">리드타임 90% 단축, 응대 품질 상향 평준화</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case 03 -->
+                <div class="flex-none w-full md:w-auto bg-slate-50 rounded-2xl p-8 border border-slate-200 hover:shadow-lg transition-shadow aos-init" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="text-xl font-bold text-slate-900 mb-4 h-14 flex items-center">03. 전사 통합 데이터 분석 및<br>전략
+                        도출 AI Agent</h3>
+                    <div class="space-y-4 text-sm">
+                        <div>
+                            <span class="bg-red-100 text-red-600 px-2 py-0.5 rounded text-xs font-bold">Challenge</span>
+                            <p class="text-slate-600 mt-1">데이터 통합 분석 인력 부족, 적시 의사결정 어려움</p>
+                        </div>
+                        <div>
+                            <span class="bg-blue-100 text-blue-600 px-2 py-0.5 rounded text-xs font-bold">Solution</span>
+                            <p class="text-slate-600 mt-1">영업·생산·재무 교차 분석, 리스크 발견 및 시나리오별 대응 전략 제안</p>
+                        </div>
+                        <div class="pt-4 border-t border-slate-200">
+                            <span class="text-slate-900 font-bold">Result:</span>
+                            <span class="text-blue-700 font-semibold">데이터 기반 객관적 의사결정 체계 구축</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case 04 -->
+                <div class="flex-none w-full md:w-auto bg-slate-50 rounded-2xl p-8 border border-slate-200 hover:shadow-lg transition-shadow aos-init" data-aos="fade-up" data-aos-delay="300">
+                    <h3 class="text-xl font-bold text-slate-900 mb-4 h-14 flex items-center">04. 스마트 Lot 추적 및<br>재고 관리
+                        시스템</h3>
+                    <div class="space-y-4 text-sm">
+                        <div>
+                            <span class="bg-red-100 text-red-600 px-2 py-0.5 rounded text-xs font-bold">Challenge</span>
+                            <p class="text-slate-600 mt-1">수기/엑셀 관리로 재고 불일치, 불량 추적 불가</p>
+                        </div>
+                        <div>
+                            <span class="bg-blue-100 text-blue-600 px-2 py-0.5 rounded text-xs font-bold">Solution</span>
+                            <p class="text-slate-600 mt-1">전 과정 Lot 매핑, 바코드/QR 연동으로 입력 실수 원천 차단</p>
+                        </div>
+                        <div class="pt-4 border-t border-slate-200">
+                            <span class="text-slate-900 font-bold">Result:</span>
+                            <span class="text-blue-700 font-semibold">재고 정확도 99% 달성, 역추적 시간 단축</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case 05 -->
+                <div class="flex-none w-full md:w-auto bg-slate-50 rounded-2xl p-8 border border-slate-200 hover:shadow-lg transition-shadow aos-init" data-aos="fade-up" data-aos-delay="400">
+                    <h3 class="text-xl font-bold text-slate-900 mb-4 h-14 flex items-center">05. 기업 홍보관 인터랙티브<br>AI
+                        키오스크</h3>
+                    <div class="space-y-4 text-sm">
+                        <div>
+                            <span class="bg-red-100 text-red-600 px-2 py-0.5 rounded text-xs font-bold">Challenge</span>
+                            <p class="text-slate-600 mt-1">정적인 안내판으로는 몰입감 있는 경험 제공 어려움</p>
+                        </div>
+                        <div>
+                            <span class="bg-blue-100 text-blue-600 px-2 py-0.5 rounded text-xs font-bold">Solution</span>
+                            <p class="text-slate-600 mt-1">방문객 질문 이해, 영상/이미지와 함께 대화하듯 설명하는 멀티모달 AI</p>
+                        </div>
+                        <div class="pt-4 border-t border-slate-200">
+                            <span class="text-slate-900 font-bold">Result:</span>
+                            <span class="text-blue-700 font-semibold">브랜드 경험 혁신 및 무인 리셉션 운영</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case 06 -->
+                <div class="flex-none w-full md:w-auto bg-slate-50 rounded-2xl p-8 border border-slate-200 hover:shadow-lg transition-shadow aos-init" data-aos="fade-up" data-aos-delay="500">
+                    <h3 class="text-xl font-bold text-slate-900 mb-4 h-14 flex items-center">06. 제조/재무 통합<br>ERP 시스템
+                        구축</h3>
+                    <div class="space-y-4 text-sm">
+                        <div>
+                            <span class="bg-red-100 text-red-600 px-2 py-0.5 rounded text-xs font-bold">Challenge</span>
+                            <p class="text-slate-600 mt-1">생산과 회계 분리로 실적 미반영 및 현황 파악 지연</p>
+                        </div>
+                        <div>
+                            <span class="bg-blue-100 text-blue-600 px-2 py-0.5 rounded text-xs font-bold">Solution</span>
+                            <p class="text-slate-600 mt-1">공정부터 회계까지 아우르는 All-in-One 시스템 및 자동 연동 설계</p>
+                        </div>
+                        <div class="pt-4 border-t border-slate-200">
+                            <span class="text-slate-900 font-bold">Result:</span>
+                            <span class="text-blue-700 font-semibold">투명한 경영 관리 및 월 결산 업무 자동화</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    
+
+    <footer class="bg-slate-950 text-slate-500 py-10 border-t border-slate-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
+            <div class="mb-4 md:mb-0">
+                <span class="text-xl font-bold text-slate-300">MOAI</span>
+            </div>
+            <div class="text-sm">
+                © 2026 MOAI. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- AOS JS -->
+    <script src="./제조 운영지능 MOAI - CAPA_files/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+            offset: 100,
+        });
+    </script>
+
+
+</body></html>
